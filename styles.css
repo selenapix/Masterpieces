@@ -1,0 +1,323 @@
+.name {
+  background-color: rgb(246, 150, 150);
+  color: rgb(241, 241, 240);
+  display: inline;
+  padding-left: 40px;
+  padding-right: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 27px;
+     
+}
+
+.nav {
+  color: rgb(246, 150, 150);
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  margin-left: 600px;
+  margin-right: 20px;
+  text-decoration: underline;
+    margin-top: -16px;
+ }
+
+ .about-me-nav:hover {
+  cursor: pointer;
+  color: rgb(255, 204, 128);
+  transform: (1.5);
+  transition: .4s;
+  }
+
+  .about-me-p {
+    font-size: smaller;
+    color: rgb(119, 115, 115);
+    margin-left: 250px;
+    margin-top: -140px;
+  }
+
+ .work-nav:hover {
+  cursor: pointer;
+  color: rgb(255, 204, 128);
+  transform: (1.5);
+  transition: .4s;
+ }
+
+ .contact-me-nav:hover {
+  cursor: pointer;
+  color: rgb(255, 204, 128);
+  transform: (1.5);
+  transition: .4s;
+ }
+
+ #masterpieces {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px gray;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-top: 150px;
+  background-image: url(./images/background.svg);
+   }
+
+ .resume-nav:hover {
+  cursor: pointer;
+  color: rgb(255, 204, 128);
+  transform: (1.5);
+  transition: .4s;
+ }
+ 
+ 
+.about-me {
+  color:  rgb(246, 150, 150);
+  margin-top: 60px;
+  margin-left: 30px;
+   }
+
+.me {
+  display: flex;
+  margin-left: 30px;
+}
+
+#vertical-line1 {
+  width: 1px;
+  height: 135px;
+  margin-left: 170px;
+  margin-top: -50px;
+  color: rgb(246, 150, 150);
+  background-color:  rgb(246, 150, 150);
+  border: 1px solid;
+}
+
+#vertical-line2 {
+  width: 1px;
+  height:285px;
+  margin-left: 170px;
+  margin-top: -50px;
+  color: rgb(246, 150, 150);
+  background-color:  rgb(246, 150, 150);
+  border: 1px solid;
+}
+
+
+ .work { 
+  color: rgb(246, 150, 150);
+  margin-top: 130px;
+  margin-left: 30px;
+
+ }
+
+ #surf {
+  background-color: rgb(247, 228, 143);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  font-weight: bold;
+  height: 75px;
+  width: 700px;
+  margin-left: 250px;
+  margin-right: 400px;
+  margin-top: -300px;
+  background-image: url(./images/beach.jpeg);
+  background-position: center;
+ }
+
+ #surf:hover{
+  cursor: pointer;
+  background-color: rgb(251, 247, 208);
+  border: 2px solid black;
+ }
+
+ #surf-mini {
+  height: 25px;
+  width: 150px;
+  background-color:white;
+  padding-top: 8px;
+    
+ }
+
+ #led {
+  background-color: rgb(247, 228, 143);
+  display: flex;
+  flex-direction:column ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-weight: bold;
+  height: 75px;
+  width: 320px;
+  margin-left: 250px;
+  margin-top: 25px;
+  background-image: url(./images/leds.jpeg);
+
+
+ }
+
+  #led:hover{
+    cursor: pointer;
+    border: 2px solid black;
+   }
+
+  #led-mini {
+    height: 25px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+    }
+
+  #pastel {
+      background-color: rgb(247, 228, 143);
+      display: flex;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      font-weight: bold;
+      height: 75px;
+      width: 320px;
+     margin-left: 630px;
+     margin-top: -75px;
+     background-image: url(./images/puzzle.jpeg);
+     background-position: bottom;
+  }
+
+  #pastel:hover{
+    cursor: pointer;
+     border: 2px solid black;
+  }
+
+  #pastel-mini {
+    height: 25px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  #calculator {
+    background-color: rgb(247, 228, 143);
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-weight: bold;
+    height: 75px;
+    width: 320px;
+    margin-left: 250px;
+    margin-top: 25px;
+    background-image:url(./images/calculator.jpeg);
+    background-position: center;
+  }
+
+  #calculator:hover{
+    cursor: pointer;
+    background-color: rgb(251, 247, 208);
+    border: 2px solid black;
+  }
+  
+  #calculator-mini {
+    height: 25px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  #run {
+     background-color:rgb(247, 228, 143);
+     display: flex;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: left;
+     font-weight: bold;
+     height: 75px;
+     width: 320px;
+     margin-left: 630px;
+     margin-top: -75px;
+     background-image: url(./images/run.jpeg);
+       
+  }
+
+  #run:hover{
+    cursor: pointer;
+    background-color: rgb(251, 247, 208);
+    border: 2px solid black;
+    }
+
+    #run-mini {
+      height: 25px;
+      width: 150px;
+      background-color: white;
+      position: relative;
+      text-align: left;
+      padding-top: 10px;
+    }
+    
+  .container:hover{
+      cursor: pointer;
+     }
+  
+
+ .contact-me {
+  color: rgb(246, 150, 150);
+  margin-top: 100px;
+  margin-left: 30px;
+  
+ }
+
+ .personal-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -40px;
+  margin-left: 30px;
+ }
+
+ .email {
+  color: rgb(246, 150, 150);
+  }
+
+  .email:hover {
+    cursor: pointer;
+    color: rgb(255, 204, 128);
+   }
+
+  .linked-in {
+    color: rgb(246, 150, 150);
+  }
+
+  .linked-in:hover{
+    cursor: pointer;
+    color: rgb(255, 204, 128);
+  }
+
+  .github {
+    color: rgb(246, 150, 150);
+  }
+
+  .github:hover{
+    cursor: pointer;
+    color: rgb(255, 204, 128);
+  }
+ 
+
+
+
+
+
+
+ 
